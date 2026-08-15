@@ -1,27 +1,27 @@
 # Reverse a string 
-'''text = input("Enter a string:")
+text = input("Enter a string:")
 reverse = text[::-1]
-print("Reverse string:",reverse)'''
+print("Reverse string:",reverse)
 
 # count digits in a number
-'''n = int(input("Enter a number:"))
+n = int(input("Enter a number:"))
 count = 0
 while n > 0:
     n//=10
     count+=1
-print("Count :",count) '''   
+print("Count :",count)  
 
 # sum of digits in a number
-'''n = int(input("Enter a number:"))
+n = int(input("Enter a number:"))
 sum = 0
 while n > 0:
     digit = n % 10
     sum += digit
     n//=10
-print("Sum of digits:",sum)  '''  
+print("Sum of digits:",sum)  
 
 # check whether a number is a palindrome or not
-'''n = int(input("Enter n value:"))
+n = int(input("Enter n value:"))
 original = n
 reverse = 0
 while n > 0 :
@@ -31,7 +31,7 @@ while n > 0 :
 if original == reverse:
     print("Palindrome")
 else:
-    print("Not Palindrome")  '''  
+    print("Not Palindrome")  
 
 # Argstrong Number
 n = int(input("Enter a number"))
